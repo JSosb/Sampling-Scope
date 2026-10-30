@@ -5,4 +5,26 @@
 	(uuid "a321d149-598f-458b-9ef7-9a393467fa38")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "Trig"
+		(shape input)
+		(at 72.39 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05e46105-b254-4b2e-9ba6-8e15b770710d")
+	)
+	(hierarchical_label "CH1"
+		(shape input)
+		(at 72.39 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "990abb1a-67f9-483a-b5cd-46b7db5c87ba")
+	)
 )
