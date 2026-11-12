@@ -11,4 +11,5 @@
 	(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/libs/SamacSys_Parts.pretty") (options "") (descr ""))
 	(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/libs/SamacSys_Parts.pretty") (options "") (descr ""))
 	(lib (name "SamacSys_Parts") (type "KiCad") (uri "${KIPRJMOD}/libs/SamacSys_Parts.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "C:/Users/Jedrz/Desktop/git files/git/DRSSTC_2/DRSSTC_STM32_Controller/libs/Library.pretty") (options "") (descr ""))
 )
