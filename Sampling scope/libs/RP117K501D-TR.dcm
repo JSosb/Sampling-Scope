@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RP117K501D-TR
+D Negative-voltage Low Noise 100 mA Voltage Regulator (LDO Regulator)
+K
+F https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/rp117-ea.pdf
+$ENDCMP
+#
+#End Doc Library

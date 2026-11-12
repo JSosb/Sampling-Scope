@@ -13986,8 +13986,8 @@
 		)
 	)
 	(sheet
-		(at 170.18 39.37)
-		(size 69.85 25.4)
+		(at 157.48 26.67)
+		(size 116.84 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14002,7 +14002,7 @@
 		)
 		(uuid "cb8136f5-8ce9-42ab-a044-0b08b4b783bf")
 		(property "Sheetname" "Power"
-			(at 170.18 38.6584 0)
+			(at 156.7684 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14013,7 +14013,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 170.18 65.3546 0)
+			(at 274.9046 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14021,6 +14021,246 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V_CMP_Vsens" output
+			(at 173.99 69.85 270)
+			(uuid "d296c89c-7215-4afb-b67e-4ac1b2ff8b37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_DAC_Vsens" output
+			(at 176.53 69.85 270)
+			(uuid "0d7308d7-e06b-49fe-9b1b-1615f86405c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_Vsens" output
+			(at 179.07 69.85 270)
+			(uuid "451789f7-0464-4be0-9247-56ff3caa9019")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DELAY_Vsens" output
+			(at 181.61 69.85 270)
+			(uuid "a301a9a3-0869-4a63-98fe-23f9e62d470b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_-SMP" input
+			(at 237.49 69.85 270)
+			(uuid "5eb8f8da-35ba-4118-aff4-9c35f9c1af28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_-ST" input
+			(at 232.41 69.85 270)
+			(uuid "17758d40-9168-412a-9b09-c240fee1c565")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_5V_CMP" input
+			(at 234.95 69.85 270)
+			(uuid "3364234a-9355-4b68-951b-3aa5aaf6873e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_5V_DAC" input
+			(at 240.03 69.85 270)
+			(uuid "178d1fd5-3305-416b-ac53-4a327c3d2d50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_CLK" input
+			(at 242.57 69.85 270)
+			(uuid "6b33692b-41c3-49b3-90d2-6752b39f1aca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_DELAY" input
+			(at 247.65 69.85 270)
+			(uuid "69b1f5bc-2d30-4dfd-8192-237d402f5f12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_PLL1" input
+			(at 252.73 69.85 270)
+			(uuid "9f8b23c2-055a-4c0d-91d6-11e57376d947")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_PLL2" input
+			(at 257.81 69.85 270)
+			(uuid "2976a977-1779-4a0e-bfa4-790d807787a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_REF" input
+			(at 262.89 69.85 270)
+			(uuid "77bceafe-d99a-4439-b2ea-c26fee4c17e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_VCCO_SMP" input
+			(at 265.43 69.85 270)
+			(uuid "bd300941-a3de-471e-a4af-36312a8b9001")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_VCCO_STEP" input
+			(at 260.35 69.85 270)
+			(uuid "84d22ee4-3983-4039-98ed-a4a0efc46d66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_VCCO_TRIG" input
+			(at 255.27 69.85 270)
+			(uuid "f569377b-9aa4-4363-bd61-fa5509efc543")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG1" input
+			(at 250.19 69.85 270)
+			(uuid "cc79ff4c-72e3-4780-a8ec-671577d5d73a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG2" input
+			(at 245.11 69.85 270)
+			(uuid "34a8d4a3-c971-4830-8299-f20ee5d88a62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PLL1_Vsens" output
+			(at 184.15 69.85 270)
+			(uuid "4372738b-a665-4fcc-ab0c-4ed02e7150a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PLL2_Vsens" output
+			(at 171.45 69.85 270)
+			(uuid "0a6b6464-890e-4afd-9ac1-d2cbec4d9717")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REF_Vsens" output
+			(at 166.37 69.85 270)
+			(uuid "be4ab2ba-97c8-4796-ad23-167532f8ea97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_SMP_Vsens" output
+			(at 161.29 69.85 270)
+			(uuid "a5faf656-3d89-40d1-80ad-1f989ec32d06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_STEP_Vsens" output
+			(at 163.83 69.85 270)
+			(uuid "45641be4-936c-4a7c-a696-9e49238473e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCCO_TRIG_Vsens" output
+			(at 168.91 69.85 270)
+			(uuid "153ba860-4e7d-40d0-b795-f3a1e279927f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
