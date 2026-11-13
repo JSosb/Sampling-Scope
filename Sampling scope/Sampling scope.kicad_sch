@@ -14263,6 +14263,236 @@
 				(justify left)
 			)
 		)
+		(pin "-5_SMP_Vsens" output
+			(at 195.58 69.85 270)
+			(uuid "8abe582c-16ba-4201-94f8-8e0705bff781")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "-5_ST_Vsens" output
+			(at 198.12 69.85 270)
+			(uuid "ae951626-2510-4b47-9fa9-f1230701605a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_logic_Vsens" output
+			(at 200.66 69.85 270)
+			(uuid "0b8a3dfc-3533-497a-ac90-c43ddd15730f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5VD_Tsense" output
+			(at 204.47 69.85 270)
+			(uuid "cc274f9c-f1b5-415d-9911-2a8b30a95a8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5VD_Vsens" output
+			(at 207.01 69.85 270)
+			(uuid "a55399f5-ef0c-467b-8bd6-19849f55b3cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V_Vsens" output
+			(at 209.55 69.85 270)
+			(uuid "f1427bc2-efee-4aee-976b-77a534527979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A_Vsens" output
+			(at 212.09 69.85 270)
+			(uuid "953fcdd6-85de-4236-9bcb-6859bbaf7763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B1_Vsens" output
+			(at 214.63 69.85 270)
+			(uuid "67629bf9-54e6-421a-9ce0-85235d63a3c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B2_Vsens" output
+			(at 217.17 69.85 270)
+			(uuid "bbf32690-9c9f-4cc8-8a2c-ee5244a4fc87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "C_Vsens" output
+			(at 219.71 69.85 270)
+			(uuid "fa031c24-a3e8-44af-989d-6853e70e74eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_Vsens" output
+			(at 222.25 69.85 270)
+			(uuid "c5fe983b-4d95-4232-b243-e9cef59a5d3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EN_3V3" input
+			(at 198.12 26.67 90)
+			(uuid "9c94e5a8-de40-443b-845a-9c0f410e7a89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E_Vsens" output
+			(at 200.66 26.67 90)
+			(uuid "df7eedb7-cf50-4ec3-86b6-98baf6918a6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IA_sens" output
+			(at 203.2 26.67 90)
+			(uuid "4606d65a-5504-4a7d-8a0e-f80731ce636a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IB1_sens" output
+			(at 205.74 26.67 90)
+			(uuid "c29873dd-7cc6-4624-8d28-ef10f9a227ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IB2_sens" output
+			(at 208.28 26.67 90)
+			(uuid "0425dcae-65e4-4f9e-b102-27f68a40b573")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IC_sens" output
+			(at 210.82 26.67 90)
+			(uuid "ffaf374c-71d4-43f3-8c96-c39800f52caf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID_sens" output
+			(at 213.36 26.67 90)
+			(uuid "63954577-38e7-4787-9484-4817db36edd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IE_sens" output
+			(at 215.9 26.67 90)
+			(uuid "9370a9a3-f415-469a-a752-d4fb1c21dd0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IF_sens" output
+			(at 218.44 26.67 90)
+			(uuid "514b6afd-2b10-4f7d-8a76-12aa3265a666")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IG_sens" output
+			(at 220.98 26.67 90)
+			(uuid "c8462929-c81c-44f4-b24d-d798b0ee125e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I_5D_sens" output
+			(at 223.52 26.67 90)
+			(uuid "3ae6677d-fdc2-4848-be29-b4020cbafc2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I_OCXO_sens" output
+			(at 226.06 26.67 90)
+			(uuid "5e473785-81c7-4e92-aba2-8bbf7731a072")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Sampling scope"
 				(path "/7b8df34b-e7ea-415d-ab57-e70bf60150ec"
