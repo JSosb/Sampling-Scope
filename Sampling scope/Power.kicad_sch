@@ -6257,6 +6257,18 @@
 		)
 		(uuid "2591bdf3-cf7a-4aab-9baa-9f80c9e54224")
 	)
+	(text "loop ijection R??"
+		(exclude_from_sim no)
+		(at 491.236 288.544 0)
+		(effects
+			(font
+				(size 11.43 11.43)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "267b5a31-c512-420e-ac16-f1b60855e7a8")
+	)
 	(text "RAIL        V     I TYP    I MAX    BLOCK  LDO         FB TOP/BOT  PDN    LOADS\n----------  ----  -------  -------  -----  ----------  ----------  -----  ---------------------------------\nPLL1        +3.3  165 mA   195 mA   A      TPS7A87     33k2/10k7   D4     ADF4351 #1 (125 MHz clock)\nPLL2        +3.3  150 mA   170 mA   A      TPS7A87     33k2/10k7   D4     ADF4351 #2 (cal / vernier)\nCLK         +3.3  215 mA   300 mA   B1     TPS7A87     33k2/10k7   D4     LMK00304 + fire FF (EP52)\nDELAY       +3.3  230 mA   275 mA   B2     TPS7A87     33k2/10k7   D4     MC100EP195 + strobe FF (EP52)\nVCCO_TRIG   +3.3  44 mA    55 mA    C      TPS7A87     33k2/10k7   C      ADCMP582 #3 trigger VCCO\nREF         +3.3  80 mA*   120 mA*  C      TPS7A87     33k2/10k7   C      Si53360, REF IN/OUT buffers, TCXO\n+5V_CMP     +5.0  23 mA    32 mA    D      TPS7A87     56k2/10k7   RC x4  ADCMP582 x3 VCCI, LT1678 V+\n+5V_DAC     +5.0  3 mA*    5 mA*    D      TPS7A87     56k2/10k7   RC x2  LTC2642 VDD, REF5030 VIN\nVCCO_SMP    +3.3  44 mA    55 mA    E      TPS7A87     33k2/10k7   C      ADCMP582 #1 sampler VCCO\nVCCO_STEP   +3.3  44 mA    55 mA    E      TPS7A87     33k2/10k7   C      ADCMP582 #2 step driver VCCO\n-5V_SMP     -5.0  30 mA*   43 mA*   F      RP117K501D  fixed       C      ADCMP582 #1 VEE, LT1678 V-\n-5V_ST      -5.0  50 mA    70 mA    F      RP117K501D  fixed       RC x2  ADCMP582 #2 + #3 VEE\n+3V3_LOGIC  +3.3  60 mA*   100 mA*  G      TPS7A87     33k2/10k7   plain  LVC glue, TLV3601 x3, EEPROM\n+5V_DIG     +5.1  600 mA*  1 A*     H      none        -           -      MCU + FPGA boards (switched)\n+5V_OCXO    +5.1  170 mA*  600 mA*  H      none (LC)   -           -      OCXO (always on)\n"
 		(exclude_from_sim no)
 		(at 41.148 69.596 0)
@@ -7228,7 +7240,7 @@
 	)
 	(text "H"
 		(exclude_from_sim no)
-		(at 105.41 293.37 0)
+		(at 98.044 357.886 0)
 		(effects
 			(font
 				(face "Agency FB")
@@ -7238,6 +7250,19 @@
 			)
 		)
 		(uuid "a609ccc1-d7c7-4bb4-b34a-ae9a7ebf4923")
+	)
+	(text "IN\n"
+		(exclude_from_sim no)
+		(at 90.932 219.456 0)
+		(effects
+			(font
+				(face "Agency FB")
+				(size 25.4 25.4)
+				(thickness 4.064)
+				(bold yes)
+			)
+		)
+		(uuid "a695a87d-c2c3-487f-89a2-179331b31a13")
 	)
 	(text "thinfilm"
 		(exclude_from_sim no)
@@ -7581,7 +7606,7 @@
 	)
 	(text "5V_D\n"
 		(exclude_from_sim no)
-		(at 216.662 311.658 0)
+		(at 210.566 314.706 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -19961,7 +19986,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 199.39) (xy 222.25 199.39)
+			(xy 217.17 199.39) (xy 223.52 199.39)
 		)
 		(stroke
 			(width 0)
@@ -31053,7 +31078,7 @@
 	)
 	(hierarchical_label "I_5D_sens"
 		(shape output)
-		(at 222.25 199.39 0)
+		(at 223.52 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
