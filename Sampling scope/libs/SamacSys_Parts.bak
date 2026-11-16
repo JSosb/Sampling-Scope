@@ -4005,7 +4005,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at 41.91 25.4 0)
+			(at 4.064 15.748 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4016,7 +4016,7 @@
 			)
 		)
 		(property "Value" "LMK00304SQ"
-			(at 41.91 22.86 0)
+			(at 3.048 13.208 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4051,7 +4051,7 @@
 			)
 		)
 		(property "Description" "1 Input Multiplexer  Two universal inputs operate up to 3.1 GHz and accept LVPECL, LVDS, CML, SSTL, HSTL, HCSL (ACcoupled), or single-ended clocks  One crystal input accepts a 10 to 40 MHz crystal or single-ended clock  Two Banks with 2 Differential Outputs each  LVPECL, LVDS, HCSL, or Hi-Z (selectable)  LVPECL Additive Jitter with LMK03806 clock source:  20 fs RMS at 156.25 MHz (10 kHz  1 MHz)  51 fs RMS at 156.25 MHz (12 kHz  20 MHz)  High PSRR: -65 / -76 dBc (LVPECL/LVDS) at 156.25 MH"
-			(at 0 0 0)
+			(at 0 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -4147,8 +4147,8 @@
 		)
 		(symbol "LMK00304SQ_1_1"
 			(rectangle
-				(start 5.08 20.32)
-				(end 40.64 -38.1)
+				(start -27.94 30.48)
+				(end 50.8 -48.26)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4158,7 +4158,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 3.81 -52.07 90)
 				(length 5.08)
 				(name "GND_1"
 					(effects
@@ -4176,7 +4176,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 26.67 35.56 270)
 				(length 5.08)
 				(name "VCCOA_1"
 					(effects
@@ -4194,7 +4194,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 55.88 20.32 180)
 				(length 5.08)
 				(name "CLKOUTA0_1"
 					(effects
@@ -4212,7 +4212,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 55.88 24.13 180)
 				(length 5.08)
 				(name "CLKOUTA0_2"
 					(effects
@@ -4230,7 +4230,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 0)
+				(at 29.21 35.56 270)
 				(length 5.08)
 				(name "VCCOA_2"
 					(effects
@@ -4248,7 +4248,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
+				(at 55.88 6.35 180)
 				(length 5.08)
 				(name "CLKOUTA1_1"
 					(effects
@@ -4266,7 +4266,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 0)
+				(at 55.88 10.16 180)
 				(length 5.08)
 				(name "CLKOUTA1_2"
 					(effects
@@ -4284,7 +4284,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 0)
+				(at 10.16 -52.07 90)
 				(length 5.08)
 				(name "GND_2"
 					(effects
@@ -4302,7 +4302,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -43.18 90)
+				(at -33.02 -10.16 0)
 				(length 5.08)
 				(name "CLKOUT_TYPE0"
 					(effects
@@ -4320,7 +4320,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -43.18 90)
+				(at 2.54 35.56 270)
 				(length 5.08)
 				(name "VCC_1"
 					(effects
@@ -4338,7 +4338,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -43.18 90)
+				(at -33.02 -40.64 0)
 				(length 5.08)
 				(name "OSCIN"
 					(effects
@@ -4356,7 +4356,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -43.18 90)
+				(at -33.02 -44.45 0)
 				(length 5.08)
 				(name "OSCOUT"
 					(effects
@@ -4374,7 +4374,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -43.18 90)
+				(at -33.02 -21.59 0)
 				(length 5.08)
 				(name "CLKIN_SEL0"
 					(effects
@@ -4392,7 +4392,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -43.18 90)
+				(at -33.02 24.13 0)
 				(length 5.08)
 				(name "CLKIN0_1"
 					(effects
@@ -4410,7 +4410,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 -43.18 90)
+				(at -33.02 19.05 0)
 				(length 5.08)
 				(name "CLKIN0_2"
 					(effects
@@ -4428,7 +4428,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 -43.18 90)
+				(at -33.02 -24.13 0)
 				(length 5.08)
 				(name "CLKIN_SEL1"
 					(effects
@@ -4446,7 +4446,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 -17.78 180)
+				(at 16.51 -52.07 90)
 				(length 5.08)
 				(name "GND_3"
 					(effects
@@ -4464,7 +4464,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 -15.24 180)
+				(at 55.88 -24.13 180)
 				(length 5.08)
 				(name "CLKOUTB1_1"
 					(effects
@@ -4482,7 +4482,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 -12.7 180)
+				(at 55.88 -20.32 180)
 				(length 5.08)
 				(name "CLKOUTB1_2"
 					(effects
@@ -4500,7 +4500,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 -10.16 180)
+				(at 16.51 35.56 270)
 				(length 5.08)
 				(name "VCCOB_1"
 					(effects
@@ -4518,7 +4518,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 -7.62 180)
+				(at 55.88 -8.89 180)
 				(length 5.08)
 				(name "CLKOUTB0_1"
 					(effects
@@ -4536,7 +4536,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 -5.08 180)
+				(at 55.88 -5.08 180)
 				(length 5.08)
 				(name "CLKOUTB0_2"
 					(effects
@@ -4554,7 +4554,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 -2.54 180)
+				(at 13.97 35.56 270)
 				(length 5.08)
 				(name "VCCOB_2"
 					(effects
@@ -4572,7 +4572,7 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 0 180)
+				(at 22.86 -52.07 90)
 				(length 5.08)
 				(name "GND_4"
 					(effects
@@ -4590,7 +4590,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 25.4 270)
+				(at 38.1 -52.07 90)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -4608,7 +4608,7 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 25.4 270)
+				(at -33.02 1.27 0)
 				(length 5.08)
 				(name "CLKIN1_1"
 					(effects
@@ -4626,7 +4626,7 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 25.4 270)
+				(at -33.02 7.62 0)
 				(length 5.08)
 				(name "CLKIN1_2"
 					(effects
@@ -4644,7 +4644,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 25.4 270)
+				(at 5.08 35.56 270)
 				(length 5.08)
 				(name "VCC_2"
 					(effects
@@ -4662,7 +4662,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 25.4 270)
+				(at 55.88 -33.02 180)
 				(length 5.08)
 				(name "REFOUT"
 					(effects
@@ -4680,7 +4680,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 25.4 270)
+				(at -6.35 34.29 270)
 				(length 5.08)
 				(name "VCCOC"
 					(effects
@@ -4698,7 +4698,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 25.4 270)
+				(at -33.02 -30.48 0)
 				(length 5.08)
 				(name "REFOUT_EN"
 					(effects
@@ -4716,7 +4716,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 25.4 270)
+				(at -33.02 -12.7 0)
 				(length 5.08)
 				(name "CLKOUT_TYPE1"
 					(effects
@@ -4734,7 +4734,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 25.4 270)
+				(at -6.35 -52.07 90)
 				(length 5.08)
 				(name "DAP"
 					(effects
